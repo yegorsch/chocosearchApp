@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740D077D1F66537D0096E373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D077C1F66537D0096E373 /* AppDelegate.swift */; };
+		740D077F1F66537D0096E373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D077E1F66537D0096E373 /* ViewController.swift */; };
+		740D07821F66537D0096E373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740D07801F66537D0096E373 /* Main.storyboard */; };
+		740D07851F66537D0096E373 /* chocolife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 740D07831F66537D0096E373 /* chocolife.xcdatamodeld */; };
+		740D07871F66537D0096E373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740D07861F66537D0096E373 /* Assets.xcassets */; };
+		740D078A1F66537D0096E373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740D07881F66537D0096E373 /* LaunchScreen.storyboard */; };
+		740D07951F66537E0096E373 /* chocolifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D07941F66537E0096E373 /* chocolifeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		740D07911F66537E0096E373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 740D07711F66537D0096E373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740D07781F66537D0096E373;
+			remoteInfo = chocolife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740D07791F66537D0096E373 /* chocolife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chocolife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740D077C1F66537D0096E373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		740D077E1F66537D0096E373 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		740D07811F66537D0096E373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740D07841F66537D0096E373 /* chocolife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chocolife.xcdatamodel; sourceTree = "<group>"; };
+		740D07861F66537D0096E373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740D07891F66537D0096E373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740D078B1F66537D0096E373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740D07901F66537E0096E373 /* chocolifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chocolifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		740D07941F66537E0096E373 /* chocolifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chocolifeTests.swift; sourceTree = "<group>"; };
+		740D07961F66537E0096E373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740D07761F66537D0096E373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740D078D1F66537E0096E373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740D07701F66537D0096E373 = {
+			isa = PBXGroup;
+			children = (
+				740D077B1F66537D0096E373 /* chocolife */,
+				740D07931F66537E0096E373 /* chocolifeTests */,
+				740D077A1F66537D0096E373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		740D077A1F66537D0096E373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740D07791F66537D0096E373 /* chocolife.app */,
+				740D07901F66537E0096E373 /* chocolifeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740D077B1F66537D0096E373 /* chocolife */ = {
+			isa = PBXGroup;
+			children = (
+				740D077C1F66537D0096E373 /* AppDelegate.swift */,
+				740D077E1F66537D0096E373 /* ViewController.swift */,
+				740D07801F66537D0096E373 /* Main.storyboard */,
+				740D07861F66537D0096E373 /* Assets.xcassets */,
+				740D07881F66537D0096E373 /* LaunchScreen.storyboard */,
+				740D078B1F66537D0096E373 /* Info.plist */,
+				740D07831F66537D0096E373 /* chocolife.xcdatamodeld */,
+			);
+			path = chocolife;
+			sourceTree = "<group>";
+		};
+		740D07931F66537E0096E373 /* chocolifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				740D07941F66537E0096E373 /* chocolifeTests.swift */,
+				740D07961F66537E0096E373 /* Info.plist */,
+			);
+			path = chocolifeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740D07781F66537D0096E373 /* chocolife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740D07991F66537E0096E373 /* Build configuration list for PBXNativeTarget "chocolife" */;
+			buildPhases = (
+				740D07751F66537D0096E373 /* Sources */,
+				740D07761F66537D0096E373 /* Frameworks */,
+				740D07771F66537D0096E373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chocolife;
+			productName = chocolife;
+			productReference = 740D07791F66537D0096E373 /* chocolife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		740D078F1F66537E0096E373 /* chocolifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740D079C1F66537E0096E373 /* Build configuration list for PBXNativeTarget "chocolifeTests" */;
+			buildPhases = (
+				740D078C1F66537E0096E373 /* Sources */,
+				740D078D1F66537E0096E373 /* Frameworks */,
+				740D078E1F66537E0096E373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				740D07921F66537E0096E373 /* PBXTargetDependency */,
+			);
+			name = chocolifeTests;
+			productName = chocolifeTests;
+			productReference = 740D07901F66537E0096E373 /* chocolifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740D07711F66537D0096E373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Yegor's Mac";
+				TargetAttributes = {
+					740D07781F66537D0096E373 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					740D078F1F66537E0096E373 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 740D07781F66537D0096E373;
+					};
+				};
+			};
+			buildConfigurationList = 740D07741F66537D0096E373 /* Build configuration list for PBXProject "chocolife" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740D07701F66537D0096E373;
+			productRefGroup = 740D077A1F66537D0096E373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740D07781F66537D0096E373 /* chocolife */,
+				740D078F1F66537E0096E373 /* chocolifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740D07771F66537D0096E373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740D078A1F66537D0096E373 /* LaunchScreen.storyboard in Resources */,
+				740D07871F66537D0096E373 /* Assets.xcassets in Resources */,
+				740D07821F66537D0096E373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740D078E1F66537E0096E373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740D07751F66537D0096E373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740D07851F66537D0096E373 /* chocolife.xcdatamodeld in Sources */,
+				740D077F1F66537D0096E373 /* ViewController.swift in Sources */,
+				740D077D1F66537D0096E373 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740D078C1F66537E0096E373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740D07951F66537E0096E373 /* chocolifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		740D07921F66537E0096E373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740D07781F66537D0096E373 /* chocolife */;
+			targetProxy = 740D07911F66537E0096E373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		740D07801F66537D0096E373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740D07811F66537D0096E373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		740D07881F66537D0096E373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740D07891F66537D0096E373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740D07971F66537E0096E373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		740D07981F66537E0096E373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		740D079A1F66537E0096E373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2BKJ2AF66;
+				INFOPLIST_FILE = chocolife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yegorsMac.chocolife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		740D079B1F66537E0096E373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2BKJ2AF66;
+				INFOPLIST_FILE = chocolife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yegorsMac.chocolife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		740D079D1F66537E0096E373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N2BKJ2AF66;
+				INFOPLIST_FILE = chocolifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yegorsMac.chocolifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chocolife.app/chocolife";
+			};
+			name = Debug;
+		};
+		740D079E1F66537E0096E373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N2BKJ2AF66;
+				INFOPLIST_FILE = chocolifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yegorsMac.chocolifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chocolife.app/chocolife";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740D07741F66537D0096E373 /* Build configuration list for PBXProject "chocolife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740D07971F66537E0096E373 /* Debug */,
+				740D07981F66537E0096E373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740D07991F66537E0096E373 /* Build configuration list for PBXNativeTarget "chocolife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740D079A1F66537E0096E373 /* Debug */,
+				740D079B1F66537E0096E373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		740D079C1F66537E0096E373 /* Build configuration list for PBXNativeTarget "chocolifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740D079D1F66537E0096E373 /* Debug */,
+				740D079E1F66537E0096E373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		740D07831F66537D0096E373 /* chocolife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				740D07841F66537D0096E373 /* chocolife.xcdatamodel */,
+			);
+			currentVersion = 740D07841F66537D0096E373 /* chocolife.xcdatamodel */;
+			path = chocolife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 740D07711F66537D0096E373 /* Project object */;
+}
