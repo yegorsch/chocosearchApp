@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B273BBEB4BEA60E137C0DED /* Pods_chocolifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A26DF514B7AD72B8A13404 /* Pods_chocolifeTests.framework */; };
 		740D077D1F66537D0096E373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D077C1F66537D0096E373 /* AppDelegate.swift */; };
 		740D077F1F66537D0096E373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D077E1F66537D0096E373 /* ViewController.swift */; };
-		740D07821F66537D0096E373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740D07801F66537D0096E373 /* Main.storyboard */; };
+		740D07821F66537D0096E373 /* IPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740D07801F66537D0096E373 /* IPhone.storyboard */; };
 		740D07851F66537D0096E373 /* chocolife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 740D07831F66537D0096E373 /* chocolife.xcdatamodeld */; };
 		740D07871F66537D0096E373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740D07861F66537D0096E373 /* Assets.xcassets */; };
 		740D078A1F66537D0096E373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740D07881F66537D0096E373 /* LaunchScreen.storyboard */; };
 		740D07951F66537E0096E373 /* chocolifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D07941F66537E0096E373 /* chocolifeTests.swift */; };
+		740D07A01F6653E40096E373 /* CategoriesScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 740D079F1F6653E40096E373 /* CategoriesScene.sks */; };
+		740D07A21F66B40F0096E373 /* CategoriesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D07A11F66B40F0096E373 /* CategoriesScene.swift */; };
+		740D07A41F66B5A10096E373 /* CategoriesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D07A31F66B5A10096E373 /* CategoriesManager.swift */; };
+		7412469E1F6CEC9E00BEEAC7 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7412469D1F6CEC9E00BEEAC7 /* NetworkingManager.swift */; };
+		741246A01F6CEDF000BEEAC7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7412469F1F6CEDF000BEEAC7 /* User.swift */; };
+		741246A21F6CF1F800BEEAC7 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741246A11F6CF1F800BEEAC7 /* AlertManager.swift */; };
+		741246A41F6CF28800BEEAC7 /* UIApplication+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741246A31F6CF28800BEEAC7 /* UIApplication+Additions.swift */; };
+		741246A61F6D010700BEEAC7 /* ViewControllera+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741246A51F6D010700BEEAC7 /* ViewControllera+Additions.swift */; };
+		7412AFC91F6A71C20072E46C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7412AFC81F6A71C20072E46C /* Colors.swift */; };
+		746B86591F6C3886003B8E25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746B86581F6C3886003B8E25 /* LoginViewController.swift */; };
+		746B865B1F6C3927003B8E25 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746B865A1F6C3927003B8E25 /* CommonButton.swift */; };
+		747477901F6A4CEE001EBD93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7474778F1F6A319E001EBD93 /* GoogleService-Info.plist */; };
+		7496E3BE1F6DCF5200E7C0DC /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496E3BD1F6DCF5200E7C0DC /* OptionsViewController.swift */; };
+		8B7575040D8B1606B1F3E7D4 /* Pods_chocolife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF6B277FA339B6F052BF756 /* Pods_chocolife.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FF6B277FA339B6F052BF756 /* Pods_chocolife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chocolife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		740D07791F66537D0096E373 /* chocolife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chocolife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		740D077C1F66537D0096E373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		740D077E1F66537D0096E373 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		740D07811F66537D0096E373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740D07811F66537D0096E373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/IPhone.storyboard; sourceTree = "<group>"; };
 		740D07841F66537D0096E373 /* chocolife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chocolife.xcdatamodel; sourceTree = "<group>"; };
 		740D07861F66537D0096E373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		740D07891F66537D0096E373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +54,24 @@
 		740D07901F66537E0096E373 /* chocolifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chocolifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740D07941F66537E0096E373 /* chocolifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chocolifeTests.swift; sourceTree = "<group>"; };
 		740D07961F66537E0096E373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740D079F1F6653E40096E373 /* CategoriesScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CategoriesScene.sks; sourceTree = "<group>"; };
+		740D07A11F66B40F0096E373 /* CategoriesScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesScene.swift; sourceTree = "<group>"; };
+		740D07A31F66B5A10096E373 /* CategoriesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesManager.swift; sourceTree = "<group>"; };
+		7412469D1F6CEC9E00BEEAC7 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		7412469F1F6CEDF000BEEAC7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		741246A11F6CF1F800BEEAC7 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		741246A31F6CF28800BEEAC7 /* UIApplication+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Additions.swift"; sourceTree = "<group>"; };
+		741246A51F6D010700BEEAC7 /* ViewControllera+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControllera+Additions.swift"; sourceTree = "<group>"; };
+		7412AFC81F6A71C20072E46C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		746B86581F6C3886003B8E25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		746B865A1F6C3927003B8E25 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		7474778F1F6A319E001EBD93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7496E3BD1F6DCF5200E7C0DC /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		9C0F98784FD7238D70085928 /* Pods-chocolifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chocolifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chocolifeTests/Pods-chocolifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F62DD683C9B9496ABBA3F2F /* Pods-chocolife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chocolife.release.xcconfig"; path = "Pods/Target Support Files/Pods-chocolife/Pods-chocolife.release.xcconfig"; sourceTree = "<group>"; };
+		C87CA75426D4503F63C70C85 /* Pods-chocolifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chocolifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chocolifeTests/Pods-chocolifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A26DF514B7AD72B8A13404 /* Pods_chocolifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chocolifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE28248A8CCCEE2D90D8790F /* Pods-chocolife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chocolife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chocolife/Pods-chocolife.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7575040D8B1606B1F3E7D4 /* Pods_chocolife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +87,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B273BBEB4BEA60E137C0DED /* Pods_chocolifeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36FEAAE31CB750FB20584A11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE28248A8CCCEE2D90D8790F /* Pods-chocolife.debug.xcconfig */,
+				9F62DD683C9B9496ABBA3F2F /* Pods-chocolife.release.xcconfig */,
+				C87CA75426D4503F63C70C85 /* Pods-chocolifeTests.debug.xcconfig */,
+				9C0F98784FD7238D70085928 /* Pods-chocolifeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		740D07701F66537D0096E373 = {
 			isa = PBXGroup;
 			children = (
 				740D077B1F66537D0096E373 /* chocolife */,
 				740D07931F66537E0096E373 /* chocolifeTests */,
 				740D077A1F66537D0096E373 /* Products */,
+				36FEAAE31CB750FB20584A11 /* Pods */,
+				BD619F45AA4B62D9934C0CFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +128,13 @@
 		740D077B1F66537D0096E373 /* chocolife */ = {
 			isa = PBXGroup;
 			children = (
-				740D077C1F66537D0096E373 /* AppDelegate.swift */,
-				740D077E1F66537D0096E373 /* ViewController.swift */,
-				740D07801F66537D0096E373 /* Main.storyboard */,
-				740D07861F66537D0096E373 /* Assets.xcassets */,
-				740D07881F66537D0096E373 /* LaunchScreen.storyboard */,
+				7412469C1F6CEC6D00BEEAC7 /* Models */,
+				746B865F1F6C3AC9003B8E25 /* Utils */,
+				746B865C1F6C3A76003B8E25 /* ViewControllers */,
+				746B865E1F6C3AA8003B8E25 /* Views */,
 				740D078B1F66537D0096E373 /* Info.plist */,
-				740D07831F66537D0096E373 /* chocolife.xcdatamodeld */,
+				746B865D1F6C3A8F003B8E25 /* Others */,
+				740D07801F66537D0096E373 /* IPhone.storyboard */,
 			);
 			path = chocolife;
 			sourceTree = "<group>";
@@ -99,6 +148,68 @@
 			path = chocolifeTests;
 			sourceTree = "<group>";
 		};
+		7412469C1F6CEC6D00BEEAC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7412469F1F6CEDF000BEEAC7 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		746B865C1F6C3A76003B8E25 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				740D077E1F66537D0096E373 /* ViewController.swift */,
+				746B86581F6C3886003B8E25 /* LoginViewController.swift */,
+				7496E3BD1F6DCF5200E7C0DC /* OptionsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		746B865D1F6C3A8F003B8E25 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				740D077C1F66537D0096E373 /* AppDelegate.swift */,
+				740D07861F66537D0096E373 /* Assets.xcassets */,
+				740D07881F66537D0096E373 /* LaunchScreen.storyboard */,
+				7474778F1F6A319E001EBD93 /* GoogleService-Info.plist */,
+				740D07831F66537D0096E373 /* chocolife.xcdatamodeld */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		746B865E1F6C3AA8003B8E25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				746B865A1F6C3927003B8E25 /* CommonButton.swift */,
+				740D079F1F6653E40096E373 /* CategoriesScene.sks */,
+				740D07A11F66B40F0096E373 /* CategoriesScene.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		746B865F1F6C3AC9003B8E25 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7412AFC81F6A71C20072E46C /* Colors.swift */,
+				740D07A31F66B5A10096E373 /* CategoriesManager.swift */,
+				741246A11F6CF1F800BEEAC7 /* AlertManager.swift */,
+				741246A31F6CF28800BEEAC7 /* UIApplication+Additions.swift */,
+				741246A51F6D010700BEEAC7 /* ViewControllera+Additions.swift */,
+				7412469D1F6CEC9E00BEEAC7 /* NetworkingManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BD619F45AA4B62D9934C0CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6B277FA339B6F052BF756 /* Pods_chocolife.framework */,
+				E9A26DF514B7AD72B8A13404 /* Pods_chocolifeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 740D07991F66537E0096E373 /* Build configuration list for PBXNativeTarget "chocolife" */;
 			buildPhases = (
+				1A7392004804587C1A03EF0F /* [CP] Check Pods Manifest.lock */,
 				740D07751F66537D0096E373 /* Sources */,
 				740D07761F66537D0096E373 /* Frameworks */,
 				740D07771F66537D0096E373 /* Resources */,
+				66025282F4E82F8B85624A47 /* [CP] Embed Pods Frameworks */,
+				D3F0D0E02489B143FB25DEF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 740D079C1F66537E0096E373 /* Build configuration list for PBXNativeTarget "chocolifeTests" */;
 			buildPhases = (
+				85571352E231EC61B8B34ACE /* [CP] Check Pods Manifest.lock */,
 				740D078C1F66537E0096E373 /* Sources */,
 				740D078D1F66537E0096E373 /* Frameworks */,
 				740D078E1F66537E0096E373 /* Resources */,
+				099D7A1521A5C110987FF6E3 /* [CP] Embed Pods Frameworks */,
+				23019DC483538D4599489F43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,7 +299,9 @@
 			files = (
 				740D078A1F66537D0096E373 /* LaunchScreen.storyboard in Resources */,
 				740D07871F66537D0096E373 /* Assets.xcassets in Resources */,
-				740D07821F66537D0096E373 /* Main.storyboard in Resources */,
+				747477901F6A4CEE001EBD93 /* GoogleService-Info.plist in Resources */,
+				740D07A01F6653E40096E373 /* CategoriesScene.sks in Resources */,
+				740D07821F66537D0096E373 /* IPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,13 +314,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		099D7A1521A5C110987FF6E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chocolifeTests/Pods-chocolifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A7392004804587C1A03EF0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		23019DC483538D4599489F43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chocolifeTests/Pods-chocolifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66025282F4E82F8B85624A47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chocolife/Pods-chocolife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85571352E231EC61B8B34ACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F0D0E02489B143FB25DEF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chocolife/Pods-chocolife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		740D07751F66537D0096E373 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746B86591F6C3886003B8E25 /* LoginViewController.swift in Sources */,
+				741246A21F6CF1F800BEEAC7 /* AlertManager.swift in Sources */,
+				740D07A21F66B40F0096E373 /* CategoriesScene.swift in Sources */,
+				7496E3BE1F6DCF5200E7C0DC /* OptionsViewController.swift in Sources */,
+				741246A61F6D010700BEEAC7 /* ViewControllera+Additions.swift in Sources */,
+				746B865B1F6C3927003B8E25 /* CommonButton.swift in Sources */,
+				741246A41F6CF28800BEEAC7 /* UIApplication+Additions.swift in Sources */,
+				7412AFC91F6A71C20072E46C /* Colors.swift in Sources */,
 				740D07851F66537D0096E373 /* chocolife.xcdatamodeld in Sources */,
 				740D077F1F66537D0096E373 /* ViewController.swift in Sources */,
+				7412469E1F6CEC9E00BEEAC7 /* NetworkingManager.swift in Sources */,
+				740D07A41F66B5A10096E373 /* CategoriesManager.swift in Sources */,
+				741246A01F6CEDF000BEEAC7 /* User.swift in Sources */,
 				740D077D1F66537D0096E373 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,12 +448,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		740D07801F66537D0096E373 /* Main.storyboard */ = {
+		740D07801F66537D0096E373 /* IPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				740D07811F66537D0096E373 /* Base */,
 			);
-			name = Main.storyboard;
+			name = IPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		740D07881F66537D0096E373 /* LaunchScreen.storyboard */ = {
@@ -239,6 +462,7 @@
 				740D07891F66537D0096E373 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,12 +514,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -339,53 +564,60 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		740D079A1F66537E0096E373 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE28248A8CCCEE2D90D8790F /* Pods-chocolife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N2BKJ2AF66;
 				INFOPLIST_FILE = chocolife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yegorsMac.chocolife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		740D079B1F66537E0096E373 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F62DD683C9B9496ABBA3F2F /* Pods-chocolife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N2BKJ2AF66;
 				INFOPLIST_FILE = chocolife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yegorsMac.chocolife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		740D079D1F66537E0096E373 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87CA75426D4503F63C70C85 /* Pods-chocolifeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = N2BKJ2AF66;
 				INFOPLIST_FILE = chocolifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yegorsMac.chocolifeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chocolife.app/chocolife";
 			};
@@ -393,15 +625,17 @@
 		};
 		740D079E1F66537E0096E373 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0F98784FD7238D70085928 /* Pods-chocolifeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = N2BKJ2AF66;
 				INFOPLIST_FILE = chocolifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yegorsMac.chocolifeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chocolife.app/chocolife";
 			};
@@ -426,6 +660,7 @@
 				740D079B1F66537E0096E373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		740D079C1F66537E0096E373 /* Build configuration list for PBXNativeTarget "chocolifeTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +669,7 @@
 				740D079E1F66537E0096E373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,6 @@
+framework module Pods_chocolife {
+  umbrella header "Pods-chocolife-umbrella.h"
+
+  export *
+  module * { export * }
+}

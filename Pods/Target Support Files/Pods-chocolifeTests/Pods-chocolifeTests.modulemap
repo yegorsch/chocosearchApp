@@ -1,0 +1,6 @@
+framework module Pods_chocolifeTests {
+  umbrella header "Pods-chocolifeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,20 @@
 		<key>chocolife.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>740D07781F66537D0096E373</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>740D078F1F66537E0096E373</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
